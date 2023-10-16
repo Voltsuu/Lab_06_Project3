@@ -24,7 +24,6 @@ public class RectangleInfo {
             System.out.println("Please enter a valid input");
         } while (true);
 
-        // Asking side 2
         System.out.println("Width of the triangle?");
         do {
             if (scan.hasNextDouble()) {
@@ -38,7 +37,6 @@ public class RectangleInfo {
             System.out.println("Please enter a valid input");
         } while (true);
 
-        // Calculations
         area = length*width;
         perimeter = (length*2) + (width*2);
         double cSquared = Math.pow(length, 2) + Math.pow(width, 2);
